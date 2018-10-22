@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Mali');
+
+h1{
+	font-family: Mali, cursive;
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+}
+.game-board {
+	display: grid;
+	grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+	width: 700px;
+	height: 700px;
+	margin: 0 auto;
+	background-color: #03396B;
+	color: #fff;
+	border: 6px solid #27AEBE;
+	border-radius: 10px;
+}
+
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 6px solid #27AEBE;
+	border-radius: 5px;
+	font-family: Mali, cursive;
+	font-size: 150px;
+}
+.finished{
+	display: none;
+	width: 400px;
+	top: 120px;
+	padding: 50px 0;
+	background-color: black;
+	position: absolute;
+	left: 36%;
+	text-align: center;
+	border-radius: 5px;
+	color: white;
+	font-size: 100px;
+	font-family: Mali, cursive;
+}
+.button{
+	text-align: center;
+}
+button{
+	color: black;
+	background: transparent;
+	border: 2px solid #00FFD4;
+	border-radius: 5px;
+  padding: 16px 32px;
+  margin: 20px auto;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+button:hover{
+	background-color: #00FFD4;
+	color: white;
+}
